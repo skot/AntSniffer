@@ -9,5 +9,5 @@ All data connections are broken out into a pin header with labels for their func
 
 ![3ae004adb0b7403ca8523210890ad4aa](https://github.com/SirVapes/AntSniffer/assets/122687124/e9d4061b-8b54-4894-ab3a-26dfec7085f6)
 
-For other cool stuff like this join my Discord! There we discuss, design, and develop open source mining solutions a little of everything else too!
+For other cool stuff like this join my Discord! There we discuss, design, and develop open source mining solutions and a little of everything else too!
 https://discord.gg/Px8RAvb9nr
