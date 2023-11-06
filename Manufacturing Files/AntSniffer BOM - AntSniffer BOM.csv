@@ -1,5 +1,0 @@
-Component Count:,4,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,DNP,LCSC Part
-1,2,"CN1, CN2",X2026WRS-2X09D-LPSW,x2026:X2026WRS-2X09D-LPSW,EASYEDA2KICAD:CONN-SMD_X2026WRS-2X09D-LPSW,https://datasheet.lcsc.com/lcsc/2110111530_XKB-Connectivity-X2026WRS-2x09D-LPSW_C718164.pdf,,C718164
-2,1,D1,LED,Device:LED,LED_SMD:LED_0603_1608Metric,https://datasheet.lcsc.com/lcsc/2008201032_Foshan-NationStar-Optoelectronics-NCD0603R1_C84263.pdf,,C84263
-3,1,J1,Conn_01x10_MountingPin,Connector_Generic_MountingPin:Conn_01x10_MountingPin,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,https://datasheet.lcsc.com/lcsc/2307210925_XKB-Connectivity-X6511WV-10H-C60D30_C706882.pdf,,C706882
