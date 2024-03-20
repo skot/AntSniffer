@@ -1,4 +1,4 @@
-23057098690262989
+23062209046877606
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -94402,12 +94402,26 @@ LOGO
 0
 0
 antsniffer
+RT9080-33GJ5
+
+
+0
+5
+5
+antsniffer
 SnifferLOGO
 
 
 0
 0
 0
+antsniffer
+USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal
+USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf
+USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120
+0
+16
+13
 bitcrane
 MOLEX_353180420
 
@@ -94436,6 +94450,13 @@ M93C46-WDW6TP
 0
 8
 8
+bitcrane
+USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal
+USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf
+USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120
+0
+16
+13
 bitcrane
 XTAL_405C35B12M00000
 

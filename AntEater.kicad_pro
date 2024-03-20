@@ -58,13 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_edge_clearance|143604800|46271800|be05a8b6-c03b-4b2e-8942-51b15fa7c11d|312643ce-7fc4-4f59-9e0d-b90abc67af46",
-        "silk_edge_clearance|143604800|46271800|be05a8b6-c03b-4b2e-8942-51b15fa7c11d|e777528b-847e-48e9-9c62-953c207680b2",
-        "silk_edge_clearance|193429900|46209600|beb83cd6-b516-43a6-8571-71acf899c90d|4933dbcb-e074-4627-bc47-246718194849",
-        "silk_edge_clearance|193449900|69259600|beb83cd6-b516-43a6-8571-71acf899c90d|54bedb03-334d-4f55-bacd-31fdec5dcb9e",
-        "silk_edge_clearance|193449900|69259600|beb83cd6-b516-43a6-8571-71acf899c90d|984c9930-d575-4dba-9204-e20fc1cb129a"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -498,7 +492,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Manufacturing Files/gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -509,20 +503,189 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_fmt_presets": [],
+    "bom_fmt_presets": [
+      {
+        "field_delimiter": ",",
+        "keep_line_breaks": false,
+        "keep_tabs": false,
+        "name": "DigiKey Import",
+        "ref_delimiter": " ",
+        "ref_range_delimiter": "",
+        "string_delimiter": ""
+      }
+    ],
     "bom_fmt_settings": {
       "field_delimiter": ",",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
-      "ref_delimiter": ",",
+      "name": "DigiKey Import",
+      "ref_delimiter": " ",
       "ref_range_delimiter": "",
-      "string_delimiter": "\""
+      "string_delimiter": ""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "DK",
+            "name": "DK",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "LCSC Part",
+            "name": "LCSC Part",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "PARTNO",
+            "name": "PARTNO",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "DigiKey BOM",
+        "sort_asc": true,
+        "sort_field": "Footprint"
+      },
+      {
+        "exclude_dnp": false,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Value",
+            "name": "Value",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "PARTNO",
+            "name": "PARTNO",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DK",
+            "name": "DK",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "LCSC Part",
+            "name": "LCSC Part",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description",
+            "name": "Description",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "Full BOM",
+        "sort_asc": true,
+        "sort_field": "DK"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": false,
       "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
         {
           "group_by": false,
           "label": "Reference",
@@ -533,38 +696,62 @@
           "group_by": true,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DK",
+          "name": "DK",
           "show": true
         },
         {
           "group_by": false,
-          "label": "Qty",
-          "name": "${QUANTITY}",
-          "show": true
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
+          "group_by": false,
+          "label": "PARTNO",
+          "name": "PARTNO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
