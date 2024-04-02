@@ -58,12 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|136940000|114040000|4bdbb177-6cd5-4f92-8184-fdae4b07e4d5|7de8c8fd-8a45-461d-91ad-bd43ed6f7fc9",
-        "hole_clearance|143040000|114040000|4194571d-2fcd-4406-b6f3-72cb70fda0ad|0b96fa65-f94c-41a9-87b3-d30352d68667",
-        "malformed_courtyard|137400474|99982349|a5d82975-741f-4348-82d9-5176294d8120|00000000-0000-0000-0000-000000000000",
-        "malformed_courtyard|143610474|99982349|a5d82975-741f-4348-82d9-5176294d8120|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -459,7 +454,10 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "antsniffer",
+      "bitcrane"
+    ]
   },
   "meta": {
     "filename": "AntEater.kicad_pro",
@@ -713,7 +711,7 @@
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -749,6 +747,18 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLC Part",
+          "name": "JLC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
           "show": false
         }
       ],
